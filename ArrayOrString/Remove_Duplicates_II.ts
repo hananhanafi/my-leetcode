@@ -5,13 +5,6 @@ function removeDuplicates2(nums: number[]): number {
     let isPivotTwice = false;
     
     while (i<nums.length-1){
-        // for(let j = i;j<nums.length-2;j++){
-        //     if(nums[j]===nums[j+1]){
-        //         isPivotTwice = true;
-        //     }else{
-
-        //     }
-        // }
         console.log('loop',i);
         console.log('k',k);
         console.log('nums',nums);
